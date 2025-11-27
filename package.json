@@ -1,0 +1,18 @@
+{
+  "name": "asteroiden-ballerspiel",
+  "version": "1.0.0",
+  "description": "Ein cooles Weltraum-Ballerspiel wo man Asteroiden abschießt!",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "lint": "eslint *.js",
+    "format": "prettier --write *.js *.html *.css"
+  },
+  "keywords": ["game", "asteroids", "space", "shooter"],
+  "author": "Weltraum-Pilot",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}
